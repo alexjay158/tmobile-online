@@ -1,3 +1,3 @@
 <?php
-header('Location: /wp-admin/login');
+header('Location: /tmobile-online/login');
 ?>
